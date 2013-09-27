@@ -29,7 +29,7 @@ obj.append(new MyCustomTypeConstructor(), {});
 (function() {
 	if (typeof module === 'object' && module.exports) {
 		// todo
-		var c = require('../src/counter');
+		var c = require('./counter');
 	}
 
 	if (typeof window !== 'undefined')
