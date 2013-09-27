@@ -158,7 +158,7 @@ obj.append(new MyCustomTypeConstructor(), {});
 	if (typeof module === 'object' && module.exports)
 		module.exports = overload;
 	else if (typeof define === 'function' && define.amd)
-		define(function() {return overload;});
+		define(['./counter'], function(counter) {Counter = counter; return overload;});
 	else
 		window.overload = overload;
 })();
