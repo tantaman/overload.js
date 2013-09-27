@@ -1,0 +1,24 @@
+{
+  "name": "overload.js",
+  "version": "0.0.1",
+  "description": "overload functions based on parameter types",
+  "main": "overload.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tantaman/overload.js.git"
+  },
+  "keywords": [
+    "method",
+    "function",
+    "overload",
+    "types"
+  ],
+  "author": "Matt Crinklaw-Vogt",
+  "license": "MIT"
+}
